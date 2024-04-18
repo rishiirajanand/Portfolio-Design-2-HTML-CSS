@@ -49,7 +49,7 @@ nav{
     display: flex;
     justify-content: center;
 }
-.innser_section_1{
+.inner_section_1{
     width: 65%;
     margin: auto;
     border: 2px solid red;
@@ -57,7 +57,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
-.innser_section_1 img{
+.inner_section_1 img{
     width: 280px;
 }
 .name_heading{
@@ -81,3 +81,37 @@ nav{
 }
 
 /* SECTION-2 */
+hr{
+    border: 2.5px solid #1b98e0;
+}
+.section_2{
+    width: 100%;
+    background-color: #01365d;
+}
+
+.inner_section_2{
+    width: 75%;
+    border: 1px solid red;
+    margin: auto;
+}
+.inner_section_2 p{
+    text-align: center;
+    margin: 4rem 0 4rem 0;
+    font-size: 3.5rem;
+    color: #fff;
+    font-weight: 600;
+}
+.project_card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.project_card img{
+    width: 280px;
+    transition: all 600ms;
+}
+.project_card img:hover{
+    transform: scale(1.03);
+}
