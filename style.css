@@ -7,11 +7,18 @@
     font-family: "Roboto", sans-serif;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* NAVBAR */
 nav{
     background-color: #1b98e0;
     padding: 14px 0;
     color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 .inner_nav{
@@ -38,6 +45,9 @@ nav{
 .inner_nav ul li{
     list-style: none;
     font-size: 1.2rem;
+}
+.inner_nav ul li a:hover{
+    border-bottom: 2px solid #013d68;
 }
 
 /* SECTION-1 */
@@ -146,9 +156,12 @@ hr{
 .social_link a{
     text-decoration: none;
     color: #fff;
-}
-.social_link a{
     font-size: 1.5rem;
+    transition: all 600ms;
+}
+
+.social_link a:hover{
+    transform: scale(1.08);
 }
 
 /* FOOTER */
