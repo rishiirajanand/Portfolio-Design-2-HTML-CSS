@@ -16,7 +16,7 @@ nav{
 
 .inner_nav{
     display: flex;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80%;
     margin: auto;
     justify-content: space-between;
@@ -33,7 +33,7 @@ nav{
 .inner_nav ul{
     display: flex;
     gap: 1rem;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .inner_nav ul li{
     list-style: none;
@@ -52,7 +52,7 @@ nav{
 .inner_section_1{
     width: 980px;
     margin: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -62,7 +62,7 @@ nav{
 }
 .name_heading{
     color: #fff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .name_heading span:nth-child(1){
     color: #f5ee9e;
@@ -91,7 +91,7 @@ hr{
 
 .inner_section_2{
     width: 892px;
-    border: 1px solid red;
+    border: 1px solid #013052;
     margin: auto;
 }
 .inner_section_2 p{
@@ -128,7 +128,7 @@ hr{
 }
 .inner_section_3{
     width: 500px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     color: #fff;
     text-align: center;
 }
@@ -303,6 +303,30 @@ footer p{
     }
 }
 
-@media (max-width){
-    
+@media (max-width:400px){
+    .inner_nav span{
+        font-size: 1rem;
+    }
+    .inner_nav ul li{
+        font-size: 0.5rem;
+    }
+    .inner_section_3 p {
+        font-size: 25px;
+    }
+    .social_link a {
+        font-size: 1rem;
+    }
+    .inner_section_3 {
+        width: 315px;
+    }
+    .inner_section_2 p {
+        font-size: 2.2rem;
+    }
+    .project_card img {
+        width: 190px;
+    }
+    footer p {
+
+        font-size: 1rem;
+    }
 }
