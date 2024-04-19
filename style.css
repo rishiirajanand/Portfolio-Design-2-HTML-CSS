@@ -315,7 +315,11 @@ footer p{
         font-weight: 600;
     }
 }
-
+@media (max-width:450px){
+    .project_card img {
+        width: 205px;
+    }
+}
 @media (max-width:400px){
     .inner_nav span{
         font-size: 1rem;
