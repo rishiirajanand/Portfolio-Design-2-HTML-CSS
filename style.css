@@ -7,6 +7,7 @@
     font-family: "Roboto", sans-serif;
 }
 
+
 html{
     scroll-behavior: smooth;
 }
@@ -19,6 +20,7 @@ nav{
     position: fixed;
     left: 0;
     right: 0;
+    z-index: 10;
 }
 
 .inner_nav{
